@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    This is a document 
+    <p> this is an element</p>
+    <br>
+    <h1> Bishop tech</h1>
+    <br>
+    <h2>Bishop tech 2</h2>
+    <!-- Bishop Tech Training -->
+     <!-- this is used for comment -->
+      <p> This is my <strong> HTML </strong> Content </p>
+      <p> HTML is the <em> foundation</em> of the <i> web </i></p>
+      <p> x <sup>2</sup> 10 <sub>5</sub></p>
+      <a href="https://www.github.com">visit github</a><br>
+      <a href="https://www.google.com" target="_blank" rel=" nonopener nonreffer"> go to google</a>
+      <nav>
+        <a href="./index.html"> Home </a>
+        <a href="./about.html"> about </a>
+        <a href="./contact.html"> contact </a>
+      </nav>
+      <h1> about page </h1>
+      <br><br>
+      <form> 
+        
+        <fieldset>
+          <legend>Personal Information</legend>
+          <br>
+
+          <label for="fullname"> Full Name </label>
+        <input type="text"
+        placeholder="First Last" id="fullname">
+
+        <br>
+
+        <label for="email"> Email </label>
+        <input type="email" placeholder="bishopibekwe@gmail.com" id="email">
+        
+        <br>
+
+        <label for="password"> password </label>
+        <input type="password" placeholder="atleast ten characters with figure" id="password">
+
+        <br>
+
+        <label for="age"> Age </label>
+        <input type="number"
+        id="age"
+        placeholder="enter your age"> <br>
+
+        <label for="gender"> Gender </label>
+        <br>
+        <input type="radio" name="gender" id="gender-male" value="male">
+
+        <label for="gender-male"> Male</label>
+
+        <input type="radio" name="gender" id="gender-female" value="female">
+
+        <label for="gender-female">Female</label>
+        <br>
+
+        <label for="framework"> Choose your skills </label>
+        <select name="framework" id="framework">
+          <option value="">select one</option>
+          <option value="nurse"> Nurse</option>
+          <option value="scientist"> Scientist</option>
+          <option value="engineer"> Engineer</option>
+          <option value="lawyer"> Lawyer</option>
+        </select>
+        <br><br>
+        <label for="tools"> tools you work with </label>
+        <br>
+        <input type="checkbox" name="tools" value="tchenical" id="tools" >
+        <label for="tools"> Harmer</label>
+
+        <input type="checkbox" name="tools" value="technical" id="tools">
+        <label for="tools"> screw driver</label>
+
+        <input type="checkbox" name="tools" value="technical" id="tools">
+        <label for="tools"> plier</label>
+        <br><br>
+
+        <label for="comment">Lets know how you feel</label><br>
+        <textarea name="customer feedback" id="comment"  placeholder=" a brief feedback"> </textarea>
+        <br>
+        <label for="phone">contact</label>
+        <input type="tel" id="phone" name="phone" placeholder="+234">
+        <br>
+        <label for="url"> enter your X profile</label>
+        <input type="url" id="url" name="X" placeholder="https://www.X.com">
+        <br><br>
+          <main>
+        <section>
+            Hero
+        </section>
+
+        <section>
+            about
+        </section>
+
+        <section>
+            features
+        </section>
+    </main>
+
+
+        </fieldset>
+      </form>
+
+      <audio >
+        <source src="">
+      </audio>
+
+      <br>
+
+      <p> Lorem ipsum dolor sit amet.  <style>
+        p {
+          color: blue;
+        }
+      </style></p>
+
+      <br>
+
+      <link rel="stylesheet" href=".///styles/index.css">
+
+      <h1></h1>
+
+      li
+
+      
+</body>
+</html>

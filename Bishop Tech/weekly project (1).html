@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/weekly.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="events">
+<h3>Upcoming School Events</h3>
+IN the Month of March, the School has total of (5) five events to carryout<table border="1">
+
+    <thead>
+        <tr>
+            <th>Event Name</th>
+            <th>Date</th>
+            <th>Venue</th>
+            <th>Status</th>
+            <th>Dress Code</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Intra Class Debate</td>
+            <td>15th March 2026</td>
+            <td>At Each Class</td>
+            <td>Everyone</td>
+            <td>School Uniform</td>
+        </tr>
+
+        <tr>
+            <td>Inter Class Debate</td>
+            <td>18th March 2026</td>
+            <td>Junior/Senior Halls</td>
+            <td>Class Representatives</td>
+            <td>School Uniform</td>
+        </tr>
+
+        <tr>
+            <td>Junior VS Senior Class</td>
+            <td>20th March 2026</td>
+            <td>School Auditorium</td>
+            <td>Session Representatives</td>
+            <td>Junior/ Senior outfit</td>
+        </tr>
+
+        <tr>
+            <td>Inter School Compettion</td>
+            <td>30th March 2026</td>
+            <td>Council Education Qtr.</td>
+            <td>School Representatives</td>
+            <td>School Suit Out-wear</td>
+        </tr>
+
+        <tr>
+            <td>Parents Visiting Day</td>
+            <td>31st March 2026</td>
+            <td>School Premises</td>
+            <td> Everyone</td>
+            <td>Free Out-wear</td>
+        </tr>
+
+        </tbody><tfoot></tfoot>
+
+        <caption>TABLE 3.1 SCHOOL SOCIAL EVENTS, MARCH 2026</caption>
+    
+</table>
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

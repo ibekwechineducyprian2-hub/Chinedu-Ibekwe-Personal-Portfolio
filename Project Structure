@@ -1,0 +1,9 @@
+Chinedu_portfolio/
+├── index.html
+├── css/
+│   └── styles.css
+├── images/
+│   ├── profile.jpg
+│   ├── project1.jpg
+│   ├── project2.jpg
+│   └── project3.jpg
